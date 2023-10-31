@@ -1,0 +1,28 @@
+{
+	"name": "dasher/india-robot",
+	"description": "india robot telegram, whatsapp",
+	"keywords": [
+		"telegram",
+		"whatsapp",
+		"robot"
+	],
+	"authors": [
+		{
+			"name": "dasher",
+			"email": "shaoyejibada@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"license": "MIT",
+	"require": {
+		"php": ">=7.4",
+		"guzzlehttp/guzzle": "^6.5.8 || ^7.4.5",
+		"irazasyed/telegram-bot-sdk": "2.0",
+		"ext-json": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Dasher\\Robot\\": "src"
+		}
+	}
+}
